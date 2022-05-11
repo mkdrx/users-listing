@@ -61,7 +61,7 @@ const AddUser = (props) => {
   };
 
   return (
-    <div>
+    <React.Fragment>
       {/* If error is true it will pop the ErrorModal component */}
       {error && (
         <ErrorModal
@@ -89,7 +89,7 @@ const AddUser = (props) => {
           <Button type="submit">Add User</Button>
         </form>
       </Card>
-    </div>
+    </React.Fragment>
   );
 };
 

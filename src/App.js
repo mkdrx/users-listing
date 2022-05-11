@@ -18,12 +18,13 @@ function App() {
   };
 
   return (
-    <div>
+    // React fragments as a wrapper, can also use <></>
+    <React.Fragment>
       {/* Connection with AddUser component to receive the user data added */}
       <AddUser onAddUser={addUserHandler} />
       {/* Forwards the users array to UsersList component via props */}
       <UsersList users={usersList} />
-    </div>
+    </React.Fragment>
   );
 }
 
