@@ -2,14 +2,21 @@
 
 ## Based on Udemy's React Course - Maximilian Schwarzmüller
 
-**To install dependencies:**
+- Clone the project
 
-```
-npm install
+```bash
+  git clone https://github.com/mkdrx/users-listing.git
 ```
 
-**Run on http://localhost:3000 and the command to start dev mode**
+- Go to the project directory
 
+```bash
+  cd users-listing
 ```
-npm start
+
+- Install dependencies
+
+```bash
+  npm install
 ```
+
